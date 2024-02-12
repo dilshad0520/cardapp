@@ -33,19 +33,22 @@ const Carditem = () => {
               </div>
               <div className="w-full md:w-1/2">
                 <ul className="text-sm md:text-lg lg:text-xl font-medium text-left">
-                  <li className="mb-2">
-                    <span className="text-gray-600">First Name:</span>{" "}
+                  <li className="mb-2 border-2 border-pink-300 p-1 ">
+                    <span className="text-pink-600 rounded-md">
+                      First Name:
+                    </span>
                     {item.name.first}
                   </li>
-                  <li className="mb-2">
-                    <span className="text-gray-600">Last Name:</span>{" "}
+                  <li className="mb-2 border-2 border-pink-300 p-1">
+                    <span className="text-pink-600  ">Last Name:</span>
                     {item.name.last}
                   </li>
-                  <li className="mb-2">
-                    <span className="text-gray-600">Gender:</span> {item.gender}
+                  <li className="mb-2 border-2 border-pink-300 p-1">
+                    <span className="text-pink-600 ">Gender:</span>{" "}
+                    {item.gender}
                   </li>
-                  <li className="mb-2">
-                    <span className="text-gray-600">Number:</span> {item.phone}
+                  <li className="mb-2 border-2 border-pink-300 p-1">
+                    <span className="text-pink-600 ">Number:</span> {item.phone}
                   </li>
                 </ul>
               </div>
